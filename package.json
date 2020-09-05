@@ -1,0 +1,41 @@
+{
+  "name": "anya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutik0137/Anya.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mutik0137/Anya/issues"
+  },
+  "homepage": "https://github.com/mutik0137/Anya#readme",
+  "dependencies": {
+    "axios": "0.20.0",
+    "core-js": "3.6.5",
+    "react": "16.10.0",
+    "react-dom": "16.10.0",
+    "react-router-dom": "5.1.2",
+    "regenerator-runtime": "0.13.7",
+    "styled-components": "5.1.0",
+    "webpack-dev-server": "3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
+    "@babel/preset-react": "7.9.4",
+    "babel-loader": "8.1.0",
+    "cross-env": "^5.1.6",
+    "url-loader": "^1.0.1",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11"
+  }
+}
