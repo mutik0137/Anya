@@ -47,6 +47,10 @@ module.exports = {
         extensions: ['.js', '.jsx', '*'],
         alias: {
             src: path.resolve(__dirname, "src"),
+            Core: path.resolve(__dirname, "src/Core"),
+            Pages: path.resolve(__dirname, "src/Pages"),
+            components: path.resolve(__dirname, "src/components"),
+            Auth: path.resolve(__dirname, "src/components/Auth"),
         },
     },
     devServer: {

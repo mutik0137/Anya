@@ -1,20 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NavBar from "./Components/Navbar";
-
+import { BrowserRouter } from 'react-router-dom';
+import GlobalStyles from "Core/GlobalStyles";
 
 import "core-js/stable";
 import "regenerator-runtime/runtime";
+
+import BasePage from "Pages";
 
 class App extends React.Component {
 
   render() {
     return (
-      <React.StrictMode>
-        <NavBar a1="3" >
-          12312
-        </NavBar>
-      </React.StrictMode>
+      <BrowserRouter>
+        <React.StrictMode>
+            <BasePage />
+            <GlobalStyles />
+        </React.StrictMode>
+      </BrowserRouter>
     )
   }
 }
